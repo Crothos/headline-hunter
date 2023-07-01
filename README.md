@@ -12,7 +12,7 @@
 ## Description
 Enter a topic and get the top ten headlines that include that topic.
 
-![Screenshot of Headline Hunter App](./assets/screenshot.png)
+![Screenshot of Headline Hunter App](./assets/images/screenshot.png)
 
 ## Usage
 Use the text field to enter your topic of interest. Click the search button and ten relevant headlines will be returned. You can then click the headline itself to be taken to the full article to learn more.

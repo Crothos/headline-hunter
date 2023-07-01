@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Headline Hunter</title>
+  <!-- Importing Newspaper Icon and linking css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Headline Hunter</h1> <img src="/assets/images/OIG2.png" width="250" height="250" alt="magnifying glass over a newspaper"/>
+    <input id="topicInput" type="text" placeholder="Enter a topic to search for headlines">
+    <button id="searchBtn" onclick="searchTopic()">Search</button>
+    <div id="resultContainer">
+        <h2>Click a link to read the article! <br> Top Ten Headlines:</h2>
+    <ul id="resultsList"></ul>
+    </div>
+  </div>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
